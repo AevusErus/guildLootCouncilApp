@@ -1,0 +1,21 @@
+/*
+* This file is for the centralization of imports.  Do not put any styling directly
+*  in this file.  Make sure you have sass and compass installed.  These are
+*  ruby gems.
+*  Install ruby
+*  Install ruby gem manager
+*  $> gem install sass
+*  $> gem install compass
+*
+*
+*   Name your module files starting with an underscore _<name>.scss
+*   When you import that file, it becomes "<dir>/<name>"  No underscore and no .scss
+*/
+
+@import "compass";
+@import "modules/mixins";
+@import "modules/variables";
+@import "modules/fonts";
+@import "overrides/boostrap";
+//Main file should always be last
+@import "site/infrmrsite";

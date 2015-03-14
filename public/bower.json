@@ -1,0 +1,25 @@
+{
+  "name": "lootCouncilApp",
+  "version": "0.0.1",
+  "description": "Raid Loot Council Assistant",
+  "private": true,
+  "ignore": [
+    "Gruntfile.js",
+    "package.json",
+    "bower.json"
+  ],
+  "dependencies": {
+    "angular": "1.2.21",
+    "angular-ui-ace": "0.1.0",
+    "angular-ui-date": "~0.0.3",
+    "angular-ui-bootstrap-bower": "0.10.0",
+    "angular-route": "1.2.21",
+    "json3": "3.2.4",
+    "jquery": "1.9.1",
+    "underscore": "1.4.4",
+    "font-awesome": "4.1.0",
+    "bootstrap": "3.2.0",
+    "animate.css": "3.0.0",
+    "jquery-ui": "1.10.4"
+  }
+}
