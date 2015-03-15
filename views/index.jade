@@ -1,12 +1,3 @@
-extends layout
+//- extends layout
 
-block content
-  h1= title
-  p Welcome to the #{title}!
-  p Enter the name of the guild member you'd like to search for below.
-
-  form(name="input", method="get")
-  | Username:
-  input(type="text", name="user")
-	br
-  input(type="submit", value="Submit")
+include plain.html
